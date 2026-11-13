@@ -1,0 +1,117 @@
+/* phone */
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .body {
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media (min-width: 769px) and (max-width: 1199px) {
+    body {
+        margin: 0;
+    }
+
+    .body {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+    body {
+        margin: 0;
+    }
+
+    .body {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+html {
+    background-image: url(./images/Steph\ -\ Edited.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0px;
+    padding: 0%;
+    font-size: 18px;
+}
+
+.body {
+    background-image: url(./images/Steph.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    color: #F5F6F9;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0) 40%,
+        rgba(0, 0, 0, 1) 75%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+
+.mainButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #A93612;
+    border: 1px solid #A93612;
+    border-radius: 10px;
+    color: #f5f6f9;
+}
+
+.mainButton:hover {
+    color: #A93612;
+    background-color: black;
+    border: 1px solid #A93612;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+h2 {
+    margin: 0 10px;
+    padding-bottom: 5px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bi {
+    color: #F5F6F9;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
